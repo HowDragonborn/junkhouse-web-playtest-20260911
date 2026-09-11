@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "assetVersion": "blue-river-greybox-v1",
+  "status": "pass",
+  "checks": {
+    "chunkCount": 4,
+    "requiredInteractionCount": 33,
+    "exportedInteractionCount": 33,
+    "semanticRoles": [
+      "AUDIO",
+      "CAM",
+      "COL",
+      "INT",
+      "NAV",
+      "SEAT",
+      "SPAWN",
+      "VIS"
+    ],
+    "allowedSemanticRoles": [
+      "VIS",
+      "COL",
+      "NAV",
+      "INT",
+      "SEAT",
+      "SPAWN",
+      "AUDIO",
+      "CAM"
+    ],
+    "phaseOneRuntimeRoles": [
+      "VIS"
+    ],
+    "authoritativeYawCount": 33,
+    "runtimeOwnedVisualExclusionCount": 8,
+    "semanticColliderCount": 84,
+    "semanticCollidersShown": 84
+  },
+  "chunks": {
+    "bar_static": {
+      "file": "bar_static.glb",
+      "bytes": 24671984,
+      "sha256": "5fe44ceb290dd7856b054a29b20ba62f16ecf63fec53654a7ddc01d55674dc52",
+      "nodeCount": 134,
+      "meshCount": 127,
+      "vertices": 598720,
+      "triangles": 299600,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 4,
+        "COL": 20,
+        "NAV": 1,
+        "SPAWN": 1,
+        "VIS": 107
+      },
+      "extensionsUsed": [],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -35.085,
+          -1.5,
+          -31.45
+        ],
+        "max": [
+          33.5,
+          11.5,
+          32.0
+        ]
+      }
+    },
+    "bar_interactables": {
+      "file": "bar_interactables.glb",
+      "bytes": 7889596,
+      "sha256": "109153d9ced7e1f4afb676f6152656caf204b6bba3b1e7f67b807c7fd6bace1f",
+      "nodeCount": 223,
+      "meshCount": 157,
+      "vertices": 155296,
+      "triangles": 79880,
+      "roleCounts": {
+        "COL": 26,
+        "INT": 33,
+        "SEAT": 32,
+        "VIS": 132
+      },
+      "extensionsUsed": [
+        "KHR_materials_emissive_strength"
+      ],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -29.125,
+          0.72,
+          -25.575
+        ],
+        "max": [
+          27.21,
+          2.65,
+          20.86
+        ]
+      }
+    },
+    "riverwalk_static": {
+      "file": "riverwalk_static.glb",
+      "bytes": 4569932,
+      "sha256": "7c01ed269e9c1594968d305ac79b9a8aa1f7b572b722d6aa21313e40a73aca15",
+      "nodeCount": 67,
+      "meshCount": 62,
+      "vertices": 96588,
+      "triangles": 52048,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 1,
+        "COL": 2,
+        "NAV": 1,
+        "SPAWN": 2,
+        "VIS": 60
+      },
+      "extensionsUsed": [],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -4.0,
+          -0.1,
+          -20.0
+        ],
+        "max": [
+          34.7,
+          4.8,
+          39.5
+        ]
+      }
+    },
+    "lake_vista": {
+      "file": "lake_vista.glb",
+      "bytes": 35983924,
+      "sha256": "6bc606b6d6084a86a470a66b3328cea5adc4a74cc92e88b8ae7d7d5b54c1a657",
+      "nodeCount": 7,
+      "meshCount": 4,
+      "vertices": 982248,
+      "triangles": 333668,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 1,
+        "COL": 1,
+        "NAV": 1,
+        "VIS": 3
+      },
+      "extensionsUsed": [],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -166.5386,
+          -2.05,
+          -52.9823
+        ],
+        "max": [
+          -46.0,
+          5.5564,
+          148.5
+        ]
+      }
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "artRevision": "blue-river-garden-v3"
+}

@@ -1,0 +1,604 @@
+[
+  {
+    "name": "music_hall_pendant",
+    "position": [
+      -3.0,
+      7.16,
+      5.5
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 24
+  },
+  {
+    "name": "music_hall_pendant",
+    "position": [
+      -3.0,
+      14.84,
+      5.5
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 24
+  },
+  {
+    "name": "music_hall_pendant",
+    "position": [
+      9.0,
+      7.16,
+      5.5
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 24
+  },
+  {
+    "name": "music_hall_pendant",
+    "position": [
+      9.0,
+      14.84,
+      5.5
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 24
+  },
+  {
+    "name": "Hall_front_wash",
+    "position": [
+      -5,
+      7,
+      5.6
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 19.2
+  },
+  {
+    "name": "Hall_front_wash",
+    "position": [
+      3,
+      7,
+      5.6
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 19.2
+  },
+  {
+    "name": "Hall_front_wash",
+    "position": [
+      11,
+      7,
+      5.6
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 19.2
+  },
+  {
+    "name": "dining_gallery_pendant",
+    "position": [
+      -16.5,
+      -2.7199999999999998,
+      3.9999999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "dining_gallery_pendant",
+    "position": [
+      -16.5,
+      10.719999999999999,
+      3.9999999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "dining_gallery_pendant",
+    "position": [
+      -11.5,
+      -2.7199999999999998,
+      3.9999999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "dining_gallery_pendant",
+    "position": [
+      -11.5,
+      10.719999999999999,
+      3.9999999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "Gallery_table_wash",
+    "position": [
+      -14,
+      -6,
+      4.1
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 11.4
+  },
+  {
+    "name": "Gallery_table_wash",
+    "position": [
+      -14,
+      0,
+      4.1
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 11.4
+  },
+  {
+    "name": "Gallery_table_wash",
+    "position": [
+      -14,
+      6,
+      4.1
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 11.4
+  },
+  {
+    "name": "Gallery_table_wash",
+    "position": [
+      -14,
+      12,
+      4.1
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 11.4
+  },
+  {
+    "name": "water_bar_pendant",
+    "position": [
+      16.0,
+      -3.6399999999999997,
+      3.9
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "water_bar_pendant",
+    "position": [
+      16.0,
+      1.6399999999999997,
+      3.9
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "water_bar_pendant",
+    "position": [
+      22.0,
+      -3.6399999999999997,
+      3.9
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "water_bar_pendant",
+    "position": [
+      22.0,
+      1.6399999999999997,
+      3.9
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "service_wing_pendant",
+    "position": [
+      17.5,
+      7.6,
+      3.7499999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "service_wing_pendant",
+    "position": [
+      17.5,
+      12.4,
+      3.7499999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "service_wing_pendant",
+    "position": [
+      22.5,
+      7.6,
+      3.7499999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "service_wing_pendant",
+    "position": [
+      22.5,
+      12.4,
+      3.7499999999999996
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 13.2
+  },
+  {
+    "name": "Canopy_fill",
+    "position": [
+      6,
+      -10,
+      3.8
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 4.5
+  },
+  {
+    "name": "Garden_lantern",
+    "position": [
+      25,
+      -12,
+      1.55
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 1.44
+  },
+  {
+    "name": "Garden_lantern",
+    "position": [
+      28,
+      -4,
+      1.55
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 1.44
+  },
+  {
+    "name": "Garden_lantern",
+    "position": [
+      29,
+      5,
+      1.55
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 1.44
+  },
+  {
+    "name": "Garden_lantern",
+    "position": [
+      -10,
+      -16,
+      1.55
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 1.44
+  },
+  {
+    "name": "Table_lamp_1",
+    "position": [
+      -14,
+      -6,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_2",
+    "position": [
+      -14,
+      0,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_3",
+    "position": [
+      -14,
+      6,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_4",
+    "position": [
+      -14,
+      12,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_5",
+    "position": [
+      4,
+      -10,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_6",
+    "position": [
+      8,
+      -10,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_7",
+    "position": [
+      7,
+      9,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_8",
+    "position": [
+      -4,
+      6,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_9",
+    "position": [
+      2,
+      6,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_10",
+    "position": [
+      -4,
+      10,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Table_lamp_11",
+    "position": [
+      2,
+      10,
+      2.29
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 0.42
+  },
+  {
+    "name": "Backbar_wash",
+    "position": [
+      19,
+      2.7,
+      4.1
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 24
+  },
+  {
+    "name": "Stage_spot",
+    "position": [
+      -1,
+      14.8,
+      5.6
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 14.399999999999999
+  },
+  {
+    "name": "Stage_spot",
+    "position": [
+      5,
+      14.8,
+      5.6
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 14.399999999999999
+  },
+  {
+    "name": "Stage_spot",
+    "position": [
+      11,
+      14.8,
+      5.6
+    ],
+    "color": [
+      1,
+      0.68,
+      0.36
+    ],
+    "intensity": 14.399999999999999
+  }
+]

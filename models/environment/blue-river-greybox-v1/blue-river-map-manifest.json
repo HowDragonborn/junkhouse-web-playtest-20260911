@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "assetVersion": "blue-river-greybox-v1",
+  "generator": {
+    "script": "scripts/blender-blue-river-greybox.py",
+    "blenderVersion": "5.1.2"
+  },
+  "coordinateFrame": {
+    "units": "meters",
+    "game": "right-handed, X east/west, Y up, Z north/south",
+    "gltf": "right-handed, X east/west, Y up, Z north/south",
+    "blenderConversion": "Blender XYZ = game X,-Z,Y"
+  },
+  "sourceAuthority": {
+    "layout": "blue-river-layout-authority.json",
+    "layoutSha256": "1c26f753a9c314ed4e394783b0ebacef49d1f6bba6da5d3245d2e37f65f6f518",
+    "files": {
+      "src/data/buildingActivities.ts": "bb540fd55044a7698cff43efadf598011b7563dc963f616de9d5945ea2ea08e5",
+      "src/data/blueRiverGuestGates.ts": "a292aeb15247609ef6913fd8ff067321e226b629918bba571345165fe03774e5",
+      "src/data/blueRiverGuestSeatLayout.ts": "56e465b27ee3873e7ae864b30a91b7656b5a181900a4f8230e5bd13a01599fe8",
+      "src/data/blueRiverLakeVenue.ts": "4149af2397532d5b7eeda2dc3cd5def17979238b762cb46beac100ed3850eba8",
+      "src/data/blueRiverWorldSemantics.ts": "8295cadeb2dc46518f7144457e955679aafbb4e5d89a1ea34964580f4b834d08",
+      "src/data/city.ts": "8d551769f4f7a3dcb5dcf398728c5db249c91fb025ff825b26615865ab3e5443",
+      "src/ui/three/blueRiverJazzBarLayout.ts": "888a415cb5b6845f7f224c242fb419d903cd13bec998d4b85ac0eace9b6fa703"
+    },
+    "requiredInteractionCount": 33
+  },
+  "sourceBlend": {
+    "file": "blue-river-greybox-v1.blend",
+    "bytes": 1089659,
+    "sha256": "96d53881c54cb22fde88f0bbe6932a15e334b4a7faea00a87b0aefe590271c99"
+  },
+  "runtimeContract": {
+    "phaseOneRoles": [
+      "VIS"
+    ],
+    "futureRoles": [
+      "COL",
+      "NAV",
+      "INT",
+      "SEAT",
+      "SPAWN",
+      "AUDIO",
+      "CAM"
+    ],
+    "authoritativeInteractionIds": [
+      "riverside_jazz_bar_stage",
+      "riverside_jazz_bar_host",
+      "riverside_jazz_bar_guest_01",
+      "riverside_jazz_bar_guest_02",
+      "riverside_jazz_bar_guest_03",
+      "riverside_jazz_bar_guest_04",
+      "riverside_jazz_bar_guest_05",
+      "riverside_jazz_bar_guest_06",
+      "riverside_jazz_bar_guest_07",
+      "riverside_jazz_bar_bar",
+      "riverside_jazz_bar_mix_station",
+      "riverside_jazz_bar_serve",
+      "riverside_jazz_bar_glass_sink",
+      "riverside_jazz_bar_collect",
+      "riverside_jazz_bar_handoff_station",
+      "riverside_jazz_bar_restock",
+      "riverside_jazz_bar_backstock",
+      "riverside_jazz_bar_clean",
+      "riverside_jazz_bar_empty_glass_rack",
+      "riverside_jazz_bar_cola_fountain",
+      "riverside_jazz_bar_soda_fountain",
+      "riverside_jazz_bar_lemon_prep",
+      "riverside_jazz_bar_blue_syrup",
+      "riverside_jazz_bar_peach_syrup",
+      "riverside_jazz_bar_cleaning_caddy",
+      "riverside_jazz_bar_mixer",
+      "riverside_jazz_bar_daw",
+      "riverside_jazz_bar_table_show_tambourine",
+      "riverside_jazz_bar_table_show_keytar",
+      "riverside_jazz_bar_table_show_parlor_guitar",
+      "riverside_jazz_bar_spill_01",
+      "riverside_jazz_bar_spill_02",
+      "riverside_jazz_bar_spill_03"
+    ],
+    "note": "Phase one may load VIS nodes only; existing runtime collision, navigation and interaction remain authoritative."
+  },
+  "chunks": {
+    "bar_static": {
+      "file": "bar_static.glb",
+      "bytes": 1474788,
+      "sha256": "5b66432d0787ee791a115e63d8f87ab915d22062dd62e1df17a92ace7ff84a0b",
+      "nodeCount": 376,
+      "meshCount": 369,
+      "vertices": 47122,
+      "triangles": 24006,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 4,
+        "COL": 20,
+        "NAV": 1,
+        "SPAWN": 1,
+        "VIS": 349
+      },
+      "extensionsUsed": [
+        "KHR_materials_emissive_strength"
+      ],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -34.05,
+          -2.44,
+          -30.55
+        ],
+        "max": [
+          33.5,
+          6.09,
+          32.0
+        ]
+      }
+    },
+    "bar_interactables": {
+      "file": "bar_interactables.glb",
+      "bytes": 939240,
+      "sha256": "e931923c4673a55079be54585f296d62bc756b784a1d5142ae7edb17ecf92c21",
+      "nodeCount": 248,
+      "meshCount": 182,
+      "vertices": 29856,
+      "triangles": 15596,
+      "roleCounts": {
+        "COL": 26,
+        "INT": 33,
+        "SEAT": 32,
+        "VIS": 157
+      },
+      "extensionsUsed": [
+        "KHR_materials_emissive_strength"
+      ],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -30.1252,
+          0.72,
+          -25.0639
+        ],
+        "max": [
+          16.891,
+          2.65,
+          21.2203
+        ]
+      }
+    },
+    "riverwalk_static": {
+      "file": "riverwalk_static.glb",
+      "bytes": 787376,
+      "sha256": "4dd710a54132c951b12f91dde5b2a2b4c663bf56a8526ca298940453671f2634",
+      "nodeCount": 86,
+      "meshCount": 81,
+      "vertices": 24712,
+      "triangles": 24008,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 1,
+        "COL": 2,
+        "NAV": 1,
+        "SPAWN": 2,
+        "VIS": 79
+      },
+      "extensionsUsed": [
+        "KHR_materials_emissive_strength"
+      ],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -4.0,
+          -0.1,
+          -20.0
+        ],
+        "max": [
+          34.7,
+          6.275,
+          39.5
+        ]
+      }
+    },
+    "lake_vista": {
+      "file": "lake_vista.glb",
+      "bytes": 1324240,
+      "sha256": "cc749acaf7aeeb3649aac01c24a6263a962f248a742cf2afba4830c72a47592b",
+      "nodeCount": 221,
+      "meshCount": 218,
+      "vertices": 45548,
+      "triangles": 23004,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 1,
+        "COL": 1,
+        "NAV": 1,
+        "VIS": 217
+      },
+      "extensionsUsed": [
+        "KHR_materials_emissive_strength"
+      ],
+      "extensionsRequired": [],
+      "boundsM": {
+        "min": [
+          -173.0,
+          -11.45,
+          46.5
+        ],
+        "max": [
+          -7.2036,
+          26.55,
+          155.0
+        ]
+      }
+    }
+  },
+  "sourceCollectionMetrics": {
+    "bar_static": {
+      "objectCount": 376,
+      "meshCount": 369,
+      "emptyCount": 7,
+      "vertices": 12741,
+      "triangles": 24006,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 4,
+        "COL": 20,
+        "NAV": 1,
+        "SPAWN": 1,
+        "VIS": 349
+      },
+      "boundsM": {
+        "min": [
+          -34.05,
+          -2.44,
+          -30.55
+        ],
+        "max": [
+          33.5,
+          6.09,
+          32.0
+        ]
+      }
+    },
+    "bar_interactables": {
+      "objectCount": 248,
+      "meshCount": 182,
+      "emptyCount": 66,
+      "vertices": 8160,
+      "triangles": 15596,
+      "roleCounts": {
+        "COL": 26,
+        "INT": 33,
+        "SEAT": 32,
+        "VIS": 157
+      },
+      "boundsM": {
+        "min": [
+          -30.1252,
+          0.72,
+          -25.0639
+        ],
+        "max": [
+          16.891,
+          2.65,
+          21.2203
+        ]
+      }
+    },
+    "riverwalk_static": {
+      "objectCount": 86,
+      "meshCount": 81,
+      "emptyCount": 5,
+      "vertices": 13560,
+      "triangles": 24008,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 1,
+        "COL": 2,
+        "NAV": 1,
+        "SPAWN": 2,
+        "VIS": 79
+      },
+      "boundsM": {
+        "min": [
+          -4.0,
+          -0.1,
+          -20.0
+        ],
+        "max": [
+          34.7,
+          6.275,
+          39.5
+        ]
+      }
+    },
+    "lake_vista": {
+      "objectCount": 221,
+      "meshCount": 218,
+      "emptyCount": 3,
+      "vertices": 11938,
+      "triangles": 23004,
+      "roleCounts": {
+        "AUDIO": 1,
+        "CAM": 1,
+        "COL": 1,
+        "NAV": 1,
+        "VIS": 217
+      },
+      "boundsM": {
+        "min": [
+          -173.0,
+          -11.45,
+          28.25
+        ],
+        "max": [
+          -7.2036,
+          26.55,
+          155.0
+        ]
+      }
+    }
+  },
+  "qa": {
+    "rendersDirectory": "output/blue-river-map-qa",
+    "renders": [
+      {
+        "id": "interior_overview",
+        "file": "blue-river-interior-overview.png",
+        "bytes": 963377,
+        "sha256": "38d0427ce9cac3557a7851fc8914493e27fc7d8b572c4741b13295131310897c"
+      },
+      {
+        "id": "entrance_riverwalk",
+        "file": "blue-river-entrance-riverwalk.png",
+        "bytes": 1026816,
+        "sha256": "526cbcab3d4fbc97c669ad14e5047ff054ff359b9a42dfbfafa168bd10b9cab7"
+      },
+      {
+        "id": "lake_vista",
+        "file": "blue-river-lake-vista.png",
+        "bytes": 1031510,
+        "sha256": "3555d757c83f11e17ab09b2639335a2628c51fa4879635f7cc97d8cfd6e3d688"
+      },
+      {
+        "id": "plan_overview",
+        "file": "blue-river-plan-overview.png",
+        "bytes": 780361,
+        "sha256": "a42a9ea081cd53dd4e452332fa8aadf4a490767e74700ea938b1760fb6974e76"
+      },
+      {
+        "id": "contact_sheet",
+        "file": "blue-river-greybox-contact-sheet.png",
+        "bytes": 3863813,
+        "sha256": "d1561e73ab3ba02527a438008fb60c5cd2f7761a6b544e68b4b634bedb4c3de0"
+      }
+    ],
+    "validationReport": {
+      "file": "blue-river-map-validation.json",
+      "sha256": "a78716c7421ff752f18078751f8e6209c97da9e92d4d8bf676eaf650ac476a45",
+      "status": "pass"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "quaternius-downtown-city-megakit-curated-v1",
+  "title": "Downtown City MegaKit — curated station hero vista",
+  "author": "Quaternius",
+  "sourcePage": "https://quaternius.itch.io/downtown-city-megakit",
+  "downloadFlow": "https://quaternius.itch.io/downtown-city-megakit/purchase (No thanks, just take me to the downloads)",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sourceArchive": {
+    "file": "Downtown City MegaKit[Standard].zip",
+    "displayedSize": "223 MB",
+    "bytes": 234753092,
+    "sha256": "5b1a945576d54cdbb4ccc9c3d52711e6d530da74c74c586407ecc28b165335da",
+    "itchPublishedUtc": "2026-05-20T19:50:00Z",
+    "localIgnoredPath": ".local/asset-imports/quaternius-downtown-city-megakit/archive/Downtown City MegaKit[Standard].zip"
+  },
+  "extractedInventory": {
+    "files": 691,
+    "bytes": 254214161,
+    "byExtension": {
+      ".bin": { "files": 153, "bytes": 8986104 },
+      ".fbx": { "files": 306, "bytes": 11955272 },
+      ".gltf": { "files": 153, "bytes": 691876 },
+      ".HDR": { "files": 3, "bytes": 17502182 },
+      ".jpg": { "files": 4, "bytes": 3927329 },
+      ".png": { "files": 71, "bytes": 211150551 },
+      ".txt": { "files": 1, "bytes": 847 }
+    },
+    "localIgnoredPath": ".local/asset-imports/quaternius-downtown-city-megakit/source/"
+  },
+  "selectedAssets": [
+    {
+      "source": "Building_Large_2.gltf",
+      "node": "Building_Large_2",
+      "role": "large hero building",
+      "sourceGltfSha256": "903209b63ad4e151190dce32ccab47a2c0dc256c09d999835984a0459ef2bd91",
+      "sourceBinSha256": "e25636464da7b96a346f89314e498099ce33d3b0e9b1f8d9cba3eee94b63fac3"
+    },
+    {
+      "source": "Building_Medium_2_001.gltf",
+      "node": "Building_Medium_2.001",
+      "role": "medium hero building",
+      "sourceGltfSha256": "423f4b3e709ef5633eac4a94a8a1ce25750aa42fe34e3b983d7aac39846f9a1c",
+      "sourceBinSha256": "8a8bd4462ff5f784e0ea7fbe753b009713f4017192c9d82b467f445eae88a35d"
+    },
+    {
+      "source": "Building_Small_1.gltf",
+      "node": "Building_Small_1",
+      "role": "small hero building",
+      "sourceGltfSha256": "3c864724fffd016ca440191bca169d6ba486e14617bb3cafa09ddbac7532f3d7",
+      "sourceBinSha256": "a5fb691fe7ab0d93d5d47eef51af576f2d65bd78103c92c9e714215b26d679a2"
+    },
+    {
+      "source": "Prop_ACUnit.gltf",
+      "node": "Prop_ACUnit",
+      "role": "rooftop silhouette detail",
+      "sourceGltfSha256": "f81fae2b49804312d23cc5c56fdf36f6bec89f342df9d135c1565ed31a7e968d",
+      "sourceBinSha256": "71c8dcc458ec8fa31ca7c3f391b1b95dc17864c6bb5c1adbdde899849c3324a"
+    },
+    {
+      "source": "Prop_Bollard.gltf",
+      "node": "Prop_Bollard",
+      "role": "Music Row edge detail",
+      "sourceGltfSha256": "4a05291a05873e4043c6354c7cae969c0726fd9b4590625a24ee3bcf940a1c9a",
+      "sourceBinSha256": "53b7227fade437ae5066359170e88fbcbb537f9e96773a6c1ad0fb2bcc0f92125"
+    },
+    {
+      "source": "Prop_Planter_Single.gltf",
+      "node": "Prop_Planter_Single",
+      "role": "station plaza detail",
+      "sourceGltfSha256": "5ab51700931236c2de45c9c8c5c1206ff312d56f00cedf134bfa462da4ef4f13",
+      "sourceBinSha256": "9350eb1b2bf17f057c8d57b9a59de8dc0c4c0bf8ec3580bba13fc7d0f9016e91"
+    },
+    {
+      "source": "Street_2Lane.gltf",
+      "node": "Street_2Lane",
+      "role": "station approach road depth",
+      "sourceGltfSha256": "4bfa763a0a1988276fd5604e8e9e1d401c31cf5438401d42a15cf3a7ec3a60fe",
+      "sourceBinSha256": "f01d04eeb99a1bc486703e27f8f05e3976a73c08493b828ed9e680e68c6a6b43"
+    },
+    {
+      "source": "Street_4WayIntersection.gltf",
+      "node": "Street_4WayIntersection",
+      "role": "station approach intersection",
+      "sourceGltfSha256": "b332bf9afd47ec6ae1c19151f8eafccee3b45037f4dfff2f115001d9d4cac34e",
+      "sourceBinSha256": "b26844243cf82d51f1106308b0bdbcf4c53ac7e1f093c7187e479c690712b193"
+    }
+  ],
+  "runtimeBundle": {
+    "asset": "models/environment/quaternius-downtown-city-megakit/downtown-city-curated-v1.glb",
+    "bytes": 29022308,
+    "sha256": "6258ad343468274e807f5f80c0afdb06c2454e2847a9332221b6a495f2f4cee6",
+    "generator": "glTF-Transform 4.4.2",
+    "textureMaximum": 1024,
+    "textures": 26,
+    "meshes": 8,
+    "materials": 13,
+    "uploadVertexCount": 130953,
+    "extensionsRequired": [],
+    "loading": "one distance-gated source; named-node clones share geometry, textures and materials",
+    "fallback": "procedural station skyline remains visible until the GLB is ready or if loading fails"
+  },
+  "limitations": [
+    "The free Standard archive contains three complete pre-built building models, not seven distinct complete buildings.",
+    "Seven runtime skyline instances therefore vary scale, orientation and dressing while sharing those three authored buildings.",
+    "The source geometry retains non-fatal tangent-space, unused-UV and degenerate-triangle validator warnings; glTF validation reports zero errors.",
+    "This is a render-only skyline and street-dressing layer. Existing authored doors, interiors, collisions and navigation remain authoritative."
+  ]
+}

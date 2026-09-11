@@ -1,0 +1,13 @@
+Downtown City MegaKit
+Models by Quaternius (@Quaternius)
+
+CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Official source:
+https://quaternius.itch.io/downtown-city-megakit
+
+The original Standard archive license notice is retained in the ignored source
+workspace at:
+.local/asset-imports/quaternius-downtown-city-megakit/source/License_Standard.txt
